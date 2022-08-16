@@ -1,0 +1,63 @@
+= 전국 사업자 연합 커뮤니티
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: Table of Contents
+
+Hong Gil Dong <gildong@gmail.com>
+
+v1.0.0, 2022.07.18
+
+***
+== MemberController
+=== 전체 회원 조회
+.curl-request
+include::{snippets}/find-all/curl-request.adoc[]
+
+.http-request
+include::{snippets}/find-all/http-request.adoc[]
+
+.http-response
+include::{snippets}/find-all/http-response.adoc[]
+
+.httpie-request
+include::{snippets}/find-all/httpie-request.adoc[]
+
+.request-body
+include::{snippets}/find-all/request-body.adoc[]
+
+.response-body
+include::{snippets}/find-all/response-body.adoc[]
+
+.request-parameters
+include::{snippets}/find-all/request-parameters.adoc[]
+
+.response-fields
+include::{snippets}/find-all/response-fields.adoc[]
+
+
+
+=== 특정 회원 조건 조회
+.curl-request
+include::{snippets}/find-filtered/curl-request.adoc[]
+
+.http-request
+include::{snippets}/find-filtered/http-request.adoc[]
+
+.http-response
+include::{snippets}/find-filtered/http-response.adoc[]
+
+.httpie-request
+include::{snippets}/find-filtered/httpie-request.adoc[]
+
+.request-body
+include::{snippets}/find-filtered/request-body.adoc[]
+
+.response-body
+include::{snippets}/find-filtered/response-body.adoc[]
+
+.request-parameters
+include::{snippets}/find-filtered/request-parameters.adoc[]
+
+.response-fields
+include::{snippets}/find-filtered/response-fields.adoc[]
